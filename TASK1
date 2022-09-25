@@ -1,0 +1,23 @@
+import java.util.*;  
+class Main   
+{  
+public static void main(String[] args)  
+{  
+Scanner sc= new Scanner(System.in);     
+System.out.print("Enter Your Faculty: ");  
+int faculty= sc.nextInt();  
+if (faculty == 1) {
+    System.out.println("JVM");
+    System.out.println("Python");
+    System.out.println("Android Studio");
+      
+}
+    Scanner sc2= new Scanner(System.in);
+    System.out.println("Choose your subject");
+
+    String subject = sc2.nextLine();  
+    System.out.println("youe subject  is: " + subject); 
+
+
+}  
+}  
